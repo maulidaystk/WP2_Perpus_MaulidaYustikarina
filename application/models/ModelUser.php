@@ -15,7 +15,7 @@ class ModelUser extends CI_Model
 
 	public function getUserWhere($where = null)
 	{
-		return $this->db->get_where('user', $ehere);
+		return $this->db->get_where('user', $where);
 	}
 
 	public function cekUserAccess($where = null)
